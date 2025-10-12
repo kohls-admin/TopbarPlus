@@ -171,7 +171,6 @@ task.defer(function()
 	for _, screenGui in pairs(Icon.container) do
 		screenGui.Parent = playerGui
 	end
-	require(iconModule.Attribute)
 end)
 
 
